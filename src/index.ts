@@ -1,1 +1,1 @@
-export { quayPlugin, QuayPage } from './plugin';
+export { quayPlugin, QuayPage, isQuayAvailable } from './plugin';

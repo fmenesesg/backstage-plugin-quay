@@ -9,12 +9,8 @@ _This plugin was created through the Backstage CLI_
 
 ### Enabling frontend 
 ```bash
-cd package/app
+cd packages/app
 yarn add @fmenesesg/backstage-plugin-quay
-```
-```ts
-// packages/app/src/plugins.ts
-export { plugin as quay } from '@fmenesesg/backstage-plugin-quay';
 ```
 ```ts
 // packages/app/src/components/catalog/EntityPage.tsx
